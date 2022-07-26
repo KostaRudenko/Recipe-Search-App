@@ -1,0 +1,35 @@
+.recipe-card {
+    margin: 30px;
+    padding: 30px;
+    background-color: #f5d290;
+    border-radius: 8px;
+}
+
+.recipe-card__ingredients-list {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+.recipe-card__ingredients-item {
+    margin-bottom: 5px;
+}
+
+.recipe-card__ingredients-item:last-child {
+    margin-bottom: 0;
+}
+
+.recipe-card__title,
+.recipe-card__calories {
+    text-align: center;
+}
+
+.recipe-card__calories {
+    font-weight: 700;
+}
+
+.recipe-card__image  {
+    max-width: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}

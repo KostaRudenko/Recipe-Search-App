@@ -1,0 +1,8 @@
+.recipes-wrapper {
+    margin: 30px 0 0;
+}
+
+.recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
